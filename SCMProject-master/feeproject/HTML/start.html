@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Open sans font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="D:\comding\SCMProject\feeproject\CSS\styles.css">
+
+
+    <!-- <link rel="stylesheet" href="C:\Users\Dell\smd\SCMProject\feeproject\CSS\styles.css"> -->
+
+    <!-- <link rel="stylesheet" href="H:\SCM project\SCMProject\feeproject\CSS\styles.css"> -->
+
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <span class="material-icons-outlined">search</span>
+                <input type="text" class="search1" placeholder="Search here"> 
+            </div>
+            <div class="header-right">
+                <span class="material-icons-outlined">notifications</span>
+                <span class="material-icons-outlined">email</span>
+                <span class="material-icons-outlined" id="personn"> <a href="newlogin.html" target="_blank">account_circle</a></span>
+                <!-- <button type="submit" class="btn" onclick="openPopup">login</button> -->
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Main -->
+        <main class="main-container">
+            <div class="main-title">
+                <h1>Social Media Dashboard</h1>
+            </div> 
+                <hr>
+            <div><h2 style="color: #8088ad">Statistics-Admin</h2>
+            <h4 style="color: #8088ad">Total Followers: 18417</h4></div>
+
+            <div class="main-cards">
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>FOLLOWERS</h2>
+                        <div class="product-icon background-twitter" style="color: rgb(255, 255, 255);">
+                            <i class="bi bi-twitter" ></i>
+                        </div>
+                        <p style="color: #8088ad; font-size: 15px;">@Admin</p>
+                        
+                    </div>
+                    <h1>4,021</h1>
+                    <p class="text-green">&#129033; +274 Today</p>
+                </div>
+                <div class="card">
+                    <div class="card-inner"> 
+                        <h2>FOLLOWERS</h2>
+                       <i class="fa fa-instagram" id="insta" aria-hidden="true"></i>
+                       <p style="color: #8088ad; font-size: 15px;" >@Admin</p>
+                    </div>
+                    <h1>9,457</h1>
+                    <p class="text-green">&#129033; +354 Today</p>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>FOLLOWERS</h2>
+                        <div class="product-icon background-lightblue">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <p style="color: #8088ad; font-size: 15px;">@Admin</p>
+                    </div>
+                    <h1>3,841</h1>
+                    <p class="text-green">&#129033; +97 Today</p>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>FOLLOWERS</h2>
+                        <div class="product-icon background-blue">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <p style="color: #8088ad; font-size: 15px;">@Admin</p>
+                    </div>
+                    <h1>1,098</h1>
+                    <p class="text-green">&#129033; +102 Today</p>
+                </div>
+            </div>
+            
+            
+                <div><h3 style="color: #8088ad;">Statisitics-Overall</h3></div>
+                <div class="social-media">
+                    <div class="product">
+                        <div>
+                            <div class="text-card">
+                            <a href="https://twitter.com/login?lang=en" target="_blank"><div class="product-icon background-twitter">
+                               <i class="bi bi-twitter" ></i>
+                            </div> </a>
+                            <p class="text-secondary">Twitter has around 528.3 million monthly active users as of 2023.</p>
+                            
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="text-card">
+                            <div>
+                               <a href="https://www.instagram.com/" target="_blank"> <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+                            <i class="fa fa-instagram" id="insta" aria-hidden="true"></i>
+                            </div> </a>
+                            <p class="text-secondary">Instagram currently has over 2.35 billion monthly active Instagram users.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="text-card">
+                            <a href="https://www.facebook.com/" target="_blank"> <div class="product-icon background-lightblue">
+                                <i class="bi bi-facebook"></i>
+                            </div> </a>
+                            <p class="text-secondary"> Facebook has around 3.03 billion monthly active users as of 2023.  </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="text-card">
+                            <a href="https://in.linkedin.com/" target="_blank"><div class="product-icon background-blue">
+                                <i class="bi bi-linkedin"></i>
+                            </div></a>
+                            <p class="text-secondary">There Are Over 930 Million Users on LinkedIn. 61 Million Users Look for Jobs Weekly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End Main -->
+    </div>
+
+
+    <!-- <div class="popup" id="popup">
+        <div class="login">
+            <h1>Log In</h1>
+            <label>Email</label>
+            <input type="email" placeholder="Email" class="input"/>
+            <label>Password</label>
+            <input type="password" placeholder="Password" class="input"/>
+            <button>Log In</button>
+
+        </div>
+    </div> -->
+    
+
+</body>
+</html> 
+
+
+    

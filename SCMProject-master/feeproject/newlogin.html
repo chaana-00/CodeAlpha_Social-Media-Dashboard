@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website With Login & Registration Page</title>
+
+    <link rel="stylesheet" href="CSS/style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="start.html" ><button class="btnn"><img src="HTML/photo-1551288049-bebda4e38f71.jpg" alt="Logo"></button></a>
+        </div>
+        <nav class="navigation">
+            <a href="start.html">Home</a>
+            <ul class="submenu">
+                <li><a href="">Instagram</a></li>
+                <li><a href=""></a>Facebook</li>
+                <li><a href="">Twitter</a></li>
+            </ul>
+            <a href="HTML/about.html" target="_blank">About</a>
+            <a href="HTML/services.html" target="_blank">Services</a>
+            <a href="HTML/contact.html" target="_blank">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+            <button id="logout-btn" class="btn">Logout</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#" id="login-form">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="login-email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="login-password" required>
+                    <label>Password</label>
+                </div>
+                <!-- <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="login-password" required>
+                    <label>Confirm Password</label>
+                </div> -->
+                <button type="submit" class="btn">Login</button>
+                <!-- <div class="remember-forget">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div> -->
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#" id="register-form">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="email" id="register-email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="register-password" required>
+                    <label>Password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="login-password" required>
+                    <label>Confirm Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">I agree to terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="Js/handler.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+</html>
